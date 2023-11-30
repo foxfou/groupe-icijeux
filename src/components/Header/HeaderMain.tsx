@@ -1,10 +1,10 @@
 import Link from "next/link"
 import { Button } from "../ui/buttons/Button"
 
-export default function Header() {
+export default function HeaderMain() {
     return (
-        <header className="bg-transperent w-full bg-slate-300">
-            <div className="flex gap-[200px] justify-center items-center h-[150px]">
+        <header className="bg-transperent absolute top-0 left-0 w-full">
+            <div className="flex gap-[200px] justify-center items-center h-[150px] text-white">
 
                 <div className="">logo</div>
 
@@ -22,7 +22,7 @@ export default function Header() {
 
                 <div className="flex gap-3">
 
-                    <Button variant="outlined" color="black">log in</Button>
+                    <Button variant="outlined" color="white">log in</Button>
 
                     <button>sign up</button>
 
