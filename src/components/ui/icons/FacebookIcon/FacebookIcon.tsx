@@ -5,7 +5,6 @@ export type FacebookIconProps = {
     fill?: string;
 }
 
-
 export const FacebookIcon: React.FC<FacebookIconProps> = ({ className = "w-6 h-6", fill = "currentColor" }) => {
     return (
         <Icon className={className}>

@@ -1,13 +1,16 @@
 import { FacebookIcon } from "../ui/icons/FacebookIcon/FacebookIcon"
 import { Button } from "../ui/buttons/Button"
 import Link from "next/link"
+import Logo from "../images/Logo"
 
 export default function Footer() {
     return (
         <footer className="bg-footer pt-10">
             <div className="container mx-auto">
                 <div className="flex justify-between items-center gap-20 pb-10" >
-                    <div className=""><img src="/logo.png" alt="logo" className="max-w-[250px]" /></div>
+                    <div className="">
+                        <Logo />
+                    </div>
                     <h1 className="text-2xl text-white font-bold">Concepteur d’aires de jeux conçues pour émerveiller et inspirer.</h1>
                 </div>
 
@@ -41,7 +44,7 @@ export default function Footer() {
 
                     <a href="https://www.facebook.com/Gr.ICIJEUX">
                         <FacebookIcon className=" text-white w-10 h-10" />
-                    </a>   
+                    </a>
                 </div>
 
                 <div className="flex justify-center text-white pt-20 pb-5 font-light">Tous droits réservés © 2023 Groupe Icijeux</div>
@@ -49,7 +52,7 @@ export default function Footer() {
 
             </div>
 
-            
+
 
         </footer>
     )

@@ -25,13 +25,13 @@ export default function Header() {
 
                 <div className="flex gap-3 items-center">
 
-                <a href="https://www.facebook.com/Gr.ICIJEUX">
-                    <FacebookIcon className="w-10 h-10" />
-                </a>
-                
-                <Button variant="outlined" color="black" className="">
-                    <span className="leading-1px">Devis</span>
-                </Button>
+                    <a href="https://www.facebook.com/Gr.ICIJEUX">
+                        <FacebookIcon className="w-10 h-10" />
+                    </a>
+
+                    <Button variant="outlined" color="black" className="">
+                        <span className="leading-1px">Devis</span>
+                    </Button>
 
                 </div>
 
