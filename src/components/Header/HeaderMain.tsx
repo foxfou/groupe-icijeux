@@ -14,7 +14,7 @@ export default function HeaderMain() {
 
                 <div className="flex gap-3">
 
-                    <Link href="" className="font-semibold">Entreprise</Link>
+                    <Link href="/entreprice/approche" className="font-semibold">Entreprise</Link>
 
                     <Link href="" className="font-semibold">Services</Link>
 
