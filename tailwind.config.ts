@@ -9,7 +9,7 @@ const config: Config = {
     theme: {
         extend: {
             backgroundImage: {
-                'main-cover': "url('/main-cover.jpg')",
+                'main-cover': "url('/groupe-icijeux/main-cover.jpg')",
             },
             colors: {
                 primary: "#dfe777",
