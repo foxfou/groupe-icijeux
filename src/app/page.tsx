@@ -47,7 +47,7 @@ export default function Home() {
                 <section className="bg-primary">
 
                     <div className="flex items-center justify-center">
-                        <img src="/main-full.jpg" alt="" className="object-cover object-center w-full h-[450px]" />
+                        <img src={`${process.env.BASE_URL}/main-full.jpg`} alt="" className="object-cover object-center w-full h-[450px]" />
                     </div>
 
                     <div className="max-w-screen mx-auto">
