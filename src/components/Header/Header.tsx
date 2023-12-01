@@ -6,7 +6,7 @@ import LogoBlack from "../images/LogoBlack"
 export default function Header() {
     return (
         <header className="bg-transperents">
-            <div className="flex justify-between container mx-auto items-center h-[150px] text-black">
+            <div className="flex justify-between max-w-screen mx-auto items-center h-[150px] text-black">
 
                 <div>
                     <LogoBlack />
@@ -14,7 +14,7 @@ export default function Header() {
 
                 <div className="flex gap-3">
 
-                    <Link href="/entreprice/approche" className="font-semibold">Entreprise</Link>
+                    <Link href="" className="font-semibold">Entreprise</Link>
 
                     <Link href="" className="font-semibold">Services</Link>
 

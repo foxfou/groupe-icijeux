@@ -6,7 +6,7 @@ import LogoMain from "../images/LogoMain"
 export default function HeaderMain() {
     return (
         <header className="bg-transperent absolute top-0 left-0 w-full">
-            <div className="flex justify-between container mx-auto items-center h-[150px] text-white">
+            <div className="flex justify-between max-w-screen mx-auto items-center h-[150px] text-white">
 
                 <div>
                     <LogoMain />
@@ -14,7 +14,7 @@ export default function HeaderMain() {
 
                 <div className="flex gap-3">
 
-                    <Link href="/entreprice/approche" className="font-semibold">Entreprise</Link>
+                    <Link href="" className="font-semibold">Entreprise</Link>
 
                     <Link href="" className="font-semibold">Services</Link>
 

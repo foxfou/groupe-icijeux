@@ -8,6 +8,9 @@ const config: Config = {
     ],
     theme: {
         extend: {
+            maxWidth: {
+                'screen': '1280px',
+            },
             backgroundImage: {
                 'main-cover': `url(${process.env.BASE_URL}/main-cover.jpg)`,
             },
@@ -15,7 +18,8 @@ const config: Config = {
                 primary: "#dfe777",
                 secondary: "#fffdc1",
                 footer: "#464646",
-                title: "#336218"
+                title: "#336218",
+                secondaryText: "#2e3105"
             },
             lineHeight: {
                 '1px': '1px',

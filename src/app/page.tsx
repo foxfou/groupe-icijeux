@@ -1,5 +1,7 @@
 import HeaderMain from "@/components/Header/HeaderMain"
 import { MainCover } from "@/components/images/MainCover"
+import { Button } from "@/components/ui/buttons/Button"
+import Image from "next/image"
 
 export default function Home() {
     return (
@@ -7,25 +9,144 @@ export default function Home() {
             <HeaderMain />
             <main className="">
                 <section className="bg-cover bg-center min-h-[90vh] flex flex-col bg-main-cover">
+
                     {/* <MainCover className="absolute top-0 left-0 -z-10 w-full" /> */}
-                    <div className="container flex-grow flex flex-col justify-center mx-auto">
+
+                    <div className="max-w-screen grow flex flex-col justify-center mx-auto w-full">
+
                         <h1 className="text-5xl font-bold max-w-[700px] text-white mb-10">Des aires de jeux conçues pour émerveiller et inspirer.</h1>
+
                         <div className="flex justify-start items-center gap-4">
+
                             <div className="rounded-full w-12 h-12 bg-yellow-400"></div>
+
                             <div className="rounded-full w-12 h-12 bg-red-400"></div>
+
                             <div className="rounded-full w-12 h-12 bg-orange-400"></div>
+
                             <div className="rounded-full w-12 h-12 bg-blue-400"></div>
+
                         </div>
+
                     </div>
 
                 </section>
 
-                <section className="h-[2000px] bg-black">
-                    <h1 className="text-5xl font-bold max-w-[700px] text-white mb-10">Des aires de jeux conçues pour émerveiller et inspirer.</h1>
-                    <h1 className="text-5xl font-bold max-w-[700px] text-white mb-10">Des aires de jeux conçues pour émerveiller et inspirer.</h1>
-                    <h1 className="text-5xl font-bold max-w-[700px] text-white mb-10">Des aires de jeux conçues pour émerveiller et inspirer.</h1>
-                    <h1 className="text-5xl font-bold max-w-[700px] text-white mb-10">Des aires de jeux conçues pour émerveiller et inspirer.</h1>
+                <section className="">
+                    <div className="max-w-screen flex py-10 justify-between mx-auto">
+
+                        <Image src={`${process.env.BASE_URL}/main1.jpg`} alt="main1" height="500" width="390" />
+
+                        <Image src={`${process.env.BASE_URL}/main2.jpg`} alt="main2" height="500" width="390" />
+
+                        <Image src={`${process.env.BASE_URL}/main3.jpg`} alt="main3" height="500" width="390" />
+
+                    </div>
                 </section>
+
+                <section className="bg-primary">
+
+                    <div className="flex items-center justify-center">
+                        <img src="/main-full.jpg" alt="" className="object-cover object-center w-full h-[450px]" />
+                    </div>
+
+                    <div className="max-w-screen mx-auto">
+                        <div className="flex justify-between py-12 items-center">
+
+                            <div>
+
+                                <p className="max-w-[600px] font-bold text-4xl leading-10">Osez l'aventure en plein air avec nos jeux créatifs et innovants</p>
+
+                                <Button variant="contained" color="black" className="py-6 mt-8">
+                                    <span className="leading-1px">Notre savoir faire</span>
+                                </Button>
+
+                            </div>
+
+                            <div>
+                                <p className="max-w-[500px] text-2xl tracking-wide font-light">
+                                    Chez Groupe ICI JEUX, nous sommes passionnés par la création de jeux en plein air qui stimulent l'imagination et la créativité des enfants. Nous sommes fiers d'offrir des solutions innovantes et durables pour les aires de jeux, invitant les enfants à explorer, apprendre et s'amuser en toute sécurité.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section className="text-secondaryText">
+                    <div className="max-w-screen mx-auto my-20">
+
+                        <div className="flex justify-between py-10">
+
+                            <div className="flex flex-col justify-center max-w-[580px]">
+
+                                <h1 className="text-4xl leading-[50px]">Bienvenue dans l’environnement
+                                    <strong> Yéti-Cool.</strong> Cette gamme de produit exclusive au Groupe ICI JEUX.
+                                </h1>
+
+                                <p className="mt-6 tracking-wide leading-7 font-light">
+                                    Relevez le défi de gravir la plus haute montagne d'Amérique du Nord dans un parcours naturel ludique et testez vos habiletés motrices en toute sécurité. Soyez prêts pour l'aventure Yeti ! Découvrez une nouvelle expérience de jeu extérieur pour les
+                                    <strong className="font-bold"> 4 saisons </strong>
+                                    avec notre gamme exclusive Yéti Cool. Conçue pour favoriser le développement des enfants tout en offrant des défis créatifs et sécuritaires dans un environnement naturel.
+                                </p>
+
+                                <Button variant="contained" color="black" className="py-6 justify-self-end self-start mt-8">
+                                    <span className="leading-1px">En savoir plus</span>
+                                </Button>
+                            </div>
+
+                            <Image src={`${process.env.BASE_URL}/yeti.jpg`} alt="yeti" height="500" width="550" />
+
+                        </div>
+
+                        <div className="flex justify-between py-10">
+
+                            <Image src={`${process.env.BASE_URL}/ludiques.jpg`} alt="ludiques" height="500" width="550" />
+
+                            <div className="flex flex-col justify-center max-w-[580px]">
+
+                                <h1 className="text-4xl leading-[50px]">Des
+                                    <strong> Ruisseaux ludiques.</strong> qui s’adaptent à tous les terrains.
+                                </h1>
+
+                                <p className="mt-6 tracking-wide leading-7 font-light">
+                                    Explorer, naviguer, et jouer dans cette expérience de jeu libre explorant la
+                                    <strong className="font-bold"> manipulation de l’eau </strong> dans des circuits sinueux intégrés à votre environnement. Allez moussaillon, pompez et découvrez le plaisir d’apprendre les deux pieds dans l’eau !
+                                </p>
+
+                                <Button variant="contained" color="black" className="py-6 justify-self-end self-start mt-8">
+                                    <span className="leading-1px">En savoir plus</span>
+                                </Button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+
+                <section className="bg-primary">
+
+                    <div className="max-w-screen mx-auto">
+                        <div className="flex justify-between items-center py-12 text-secondaryText">
+
+                            <div>
+                                <h2 className="max-w-[600px] font-bold text-4xl leading-10">Demande de devis</h2>
+
+                                <p className="max-w-[550px] mt-4 tracking-wide leading-7">Pour toute demande de devis et d’information concernant vos projets, merci de bien vouloir remplir le formulaire ci-dessous, notre équipe d’expert vous répondra le plus rapidement possible.</p>
+
+                                <Button variant="contained" color="black" className="py-6 mt-8">
+                                    <span className="leading-1px">Demande de devis</span>
+                                </Button>
+
+                            </div>
+
+                            <Image src={`${process.env.BASE_URL}/children.jpg`} alt="children" height="370" width="540" />
+
+                        </div>
+                    </div>
+                </section>
+
             </main>
         </>
     )
