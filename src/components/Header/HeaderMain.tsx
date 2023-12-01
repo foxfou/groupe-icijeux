@@ -1,14 +1,15 @@
 import Link from "next/link"
 import { Button } from "../ui/buttons/Button"
 import { FacebookIcon } from "../ui/icons/FacebookIcon/FacebookIcon"
-import Logo from "../images/Logo"
+import LogoMain from "../images/LogoMain"
+
 export default function HeaderMain() {
     return (
         <header className="bg-transperent absolute top-0 left-0 w-full">
             <div className="flex justify-between container mx-auto items-center h-[150px] text-white">
 
                 <div>
-                    <Logo />
+                    <LogoMain />
                 </div>
 
                 <div className="flex gap-3">

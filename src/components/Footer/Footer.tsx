@@ -1,7 +1,7 @@
 import { FacebookIcon } from "../ui/icons/FacebookIcon/FacebookIcon"
 import { Button } from "../ui/buttons/Button"
 import Link from "next/link"
-import Logo from "../images/Logo"
+import LogoMain from "../images/LogoMain"
 
 export default function Footer() {
     return (
@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="container mx-auto">
                 <div className="flex justify-between items-center gap-20 pb-10" >
                     <div className="">
-                        <Logo />
+                        <LogoMain />
                     </div>
                     <h1 className="text-2xl text-white font-bold">Concepteur d’aires de jeux conçues pour émerveiller et inspirer.</h1>
                 </div>
