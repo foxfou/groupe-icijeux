@@ -2,6 +2,6 @@ import Image from 'next/image'
 
 export default function LogoBlack() {
     return (
-        <Image src="/logo-black.png" alt="logo" height="85" width="298" />
+        <Image src="/groupe-icijeux/logo-black.png" alt="logo" height="85" width="298" />
     )
 }
