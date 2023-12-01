@@ -14,7 +14,7 @@ export default function Home() {
 
                     <div className="max-w-screen grow flex flex-col justify-center mx-auto w-full">
 
-                        <h1 className="text-5xl font-bold max-w-[700px] text-white mb-10">Des aires de jeux conçues pour émerveiller et inspirer.</h1>
+                        <h1 className="text-5xl font-bold max-w-[700px] text-white mb-10 leading-snug mt-96">Des aires de jeux conçues pour émerveiller et inspirer.</h1>
 
                         <div className="flex justify-start items-center gap-4">
 
