@@ -5,12 +5,12 @@ import LogoMain from "../images/LogoMain"
 
 export default function Footer() {
     return (
-        <footer className="bg-footer pt-10">
+        <footer className="bg-footer p-4 lg:pt-10">
             <div className="max-w-screen mx-auto">
 
-                <div className="flex justify-between items-center gap-20 pb-10" >   
-                
-                    <div className="">
+                <div className="flex flex-col lg:flex-row justify-between items-center gap-4 lg:gap-20 pb-10" >
+
+                    <div className="max-w-[200px] flex items-center justify-center">
                         <LogoMain />
                     </div>
 
@@ -18,7 +18,7 @@ export default function Footer() {
 
                 </div>
 
-                <div className="flex">
+                <div className="flex flex-col lg:flex-row">
                     <div className="text-white flex-grow" >
 
                         <p>8225 rue Lafrenaie</p>
@@ -31,7 +31,7 @@ export default function Footer() {
 
                     </div>
 
-                    <div className="flex flex-col text-primary underline underline-offset-2  mr-[90px]">
+                    <div className="flex flex-col text-primary underline underline-offset-2 mt-4 lg:mr-[90px] lg:mt-0">
 
                         <Link href="" className="font-semibold ">Concepteurs</Link>
 
@@ -43,7 +43,7 @@ export default function Footer() {
 
                     </div>
 
-                    <div className="flex flex-col text-primary underline underline-offset-2 mr-[90px] ">
+                    <div className="flex flex-col text-primary underline underline-offset-2 mt-4 lg:mr-[90px] lg:mt-0">
 
                         <Link href="" className="font-semibold ">Produits</Link>
 
