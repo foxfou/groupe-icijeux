@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Header from '@/components/Header/Header'
+import FormLink from '@/components/FormLink/FormLink'
 
 export default function AboutLayout({
     children,
@@ -10,6 +11,7 @@ export default function AboutLayout({
         <>
             <Header />
             {children}
+            <FormLink />
         </>
     )
 }
