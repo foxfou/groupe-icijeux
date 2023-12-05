@@ -19,7 +19,8 @@ const config: Config = {
                 secondary: "#fffdc1",
                 footer: "#464646",
                 title: "#336218",
-                secondaryText: "#2e3105"
+                secondaryText: "#2e3105",
+                content: "#3f5e28"
             },
             lineHeight: {
                 '1px': '1px',
