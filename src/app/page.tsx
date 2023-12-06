@@ -53,15 +53,14 @@ export default function Home() {
                     <div className="lg:max-w-screen lg:mx-auto p-4">
                         <div className="flex flex-col lg:items-start lg:flex-row justify-between py-12 items-center flex-wrap">
 
-
                             <p className="lg:w-[600px]  font-bold text-4xl leading-10">Osez l'aventure en plein air avec nos jeux créatifs et innovants</p>
 
                             <p className="lg:max-w-[500px] text-2xl tracking-wide font-light mt-3 lg:m-0">
                                 Chez Groupe ICI JEUX, nous sommes passionnés par la création de jeux en plein air qui stimulent l'imagination et la créativité des enfants. Nous sommes fiers d'offrir des solutions innovantes et durables pour les aires de jeux, invitant les enfants à explorer, apprendre et s'amuser en toute sécurité.
                             </p>
 
-
                             <div className="lg:self-center">
+                                
                                 <Button variant="contained" color="black" className="py-6 mt-8 lg:mt-[-100px]">
                                     <span className="leading-1px">Notre savoir faire</span>
                                 </Button>
