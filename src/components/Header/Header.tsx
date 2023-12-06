@@ -7,7 +7,7 @@ import { MenuIcon } from "../ui/icons/MenuIcon/MenuIcon"
 export default function Header() {
     return (
         <header className="bg-transperents">
-            <div className="flex justify-between max-w-screen mx-auto items-center h-[150px] text-black">
+            <div className="flex justify-between max-w-screen mx-auto items-center h-[150px] text-black p-4">
 
                 <div className="max-w-[200px] lg:max-w-full">
                     <LogoBlack />

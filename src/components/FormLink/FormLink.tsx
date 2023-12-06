@@ -5,20 +5,26 @@ import Link from "next/link"
 
 export default function FormLink() {
     return (
-        <div>
+        <>
+            <section className="bg-secondary">
+                <div className="lg:p-0 p-4">
+                    <div className="lg:h-screen lg:flex lg:max-h-[210px] lg:items-center mx-auto lg:justify-evenly">
+                        
+                        <div className="flex justify-center">
+                            <Link rel="" href="">
+                                <Image src={`${process.env.BASE_URL}/question.png`} alt="question" height="210" width="210"/> 
+                            </Link>
+                        </div>
 
-            <div className="h-screen flex bg-secondary max-h-[210px] items-center mx-auto justify-evenly">
+                        <p className="lg:text-4xl text-2xl lg:max-w-[830px] max-w[310px] text-secondaryText font-bold text-center lg:leading-[45px]">Pour toutes questions sur nos produits et services, nos experts vous guideront vers les meilleures solutions.</p>  
+                    
+                    </div>
+                </div>
+            </section>
 
-                <Link rel="" href="">
-                    <Image src={`${process.env.BASE_URL}/question.png`} alt="question" height="210" width="210"/> 
-                </Link>
-
-                <p className="text-4xl max-w-[830px] text-secondaryText font-bold text-center leading-[45px]">Pour toutes questions sur nos produits et services, nos experts vous guideront vers les meilleures solutions.</p>
-
-            </div> 
-                <div className=" bg-primary h-16">
-            </div>
-            
-        </div>
+            <section className="bg-primary">
+                <div className="h-16"></div>
+            </section>
+        </>
     )
 }
