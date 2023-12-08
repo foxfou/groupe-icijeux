@@ -12,17 +12,16 @@ export default function About() {
 
                         <h1 className='lg:text-4xl text-3xl font-medium text-secondaryText'>Concepteurs</h1>
 
-                        <h2 className='text-title lg:text-5xl text-3xl my-8 my-4 lg:max-w-[850px] font-bold lg:leading-[60px] leading-[50px]'>Concevoir et fabriquer une grande variété de modules de jeux</h2>
+                        <h2 className='text-title lg:text-5xl text-3xl my-8 my-4 lg:max-w-[850px] font-bold lg:leading-[60px] leading-[40px]'>Concevoir et fabriquer une grande variété de modules de jeux</h2>
 
                     </div>
 
                 </div>
-
             </section>
 
             <section className="">
                 <div className="flex items-center justify-center">
-                    <img src={`${process.env.BASE_URL}/dreamstime.jpg`} alt="dreams" className="object-cover object-center w-full lg:h-[400px] h-[250px]" />
+                    <img src={`${process.env.BASE_URL}/dreamstime.jpg`} alt="dreams" className="object-cover object-[0_37%] w-full lg:h-[280px] h-[250px]" />
                 </div>
             </section>
 
@@ -103,7 +102,6 @@ export default function About() {
                 </div>
 
             </section>
-
         </>
     )
 }
