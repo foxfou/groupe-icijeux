@@ -1,8 +1,10 @@
-import Link from "next/link"
+"use client";
+import HeaderLinks from "./HeaderLinks";
 import { Button } from "../ui/buttons/Button"
 import { FacebookIcon } from "../ui/icons/FacebookIcon/FacebookIcon"
 import LogoMain from "../images/LogoMain"
 import { MenuIcon } from "../ui/icons/MenuIcon/MenuIcon"
+
 
 export default function HeaderMain() {
     return (
@@ -13,19 +15,9 @@ export default function HeaderMain() {
                     <LogoMain />
                 </div>
 
-                <div className="lg:flex hidden gap-3">
+                <HeaderLinks />
 
-                    <Link href="" className="font-semibold">Entreprise</Link>
 
-                    <Link href="" className="font-semibold">Services</Link>
-
-                    <Link href="" className="font-semibold">Produits</Link>
-
-                    <Link href="" className="font-semibold">Nos Projets</Link>
-
-                    <Link href="" className="font-semibold">Nous Joindre</Link>
-
-                </div>
 
                 <div className="flex gap-3 items-center">
 
@@ -40,8 +32,7 @@ export default function HeaderMain() {
                     <MenuIcon className="w-10 h-10 lg:hidden" />
 
                 </div>
-
             </div>
-        </header>
+        </header >
     )
 }
