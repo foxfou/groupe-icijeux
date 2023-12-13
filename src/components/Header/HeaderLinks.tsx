@@ -11,13 +11,13 @@ export default function HeaderLinks() {
         <div className="lg:flex hidden gap-3">
             <Dropdown>
 
-                <DropdownTrigger className="font-semibold">
+                <DropdownTrigger className="font-semibold outline-none">
                     <button>
                         Entreprise
                     </button>
                 </DropdownTrigger>
 
-                <DropdownMenu className="bg-slate-500 py-3 px-4 flex flex-col rounded-md bg-opacity-70 shadow-lg text-white">
+                <DropdownMenu className=" bg-orange-600 py-3 px-4 flex flex-col rounded-md bg-opacity-70 shadow-lg text-white outline-none">
 
                     <DropdownItem>
                         <Link href="/about/entreprise/apropos">À propos</Link>
@@ -43,7 +43,7 @@ export default function HeaderLinks() {
                     </button>
                 </DropdownTrigger>
 
-                <DropdownMenu className="bg-slate-500 py-3 px-4 flex flex-col rounded-md bg-opacity-70 shadow-lg text-white">
+                <DropdownMenu className="bg-orange-600 outline-none py-3 px-4 flex flex-col rounded-md bg-opacity-70 shadow-lg text-white">
 
                     <DropdownItem>
                         <Link href="/about/services/concepteurs">Concepteurs</Link>
@@ -73,7 +73,7 @@ export default function HeaderLinks() {
                     </button>
                 </DropdownTrigger>
 
-                <DropdownMenu className="bg-slate-500 py-3 px-4 flex flex-col rounded-md bg-opacity-70 shadow-lg text-white">
+                <DropdownMenu className="bg-orange-600 outline-none py-3 px-4 flex flex-col rounded-md bg-opacity-70 shadow-lg text-white">
 
                     <DropdownItem>
                         <Link href="/about/entreprise/concepteurs">Concepteurs</Link>
@@ -103,7 +103,7 @@ export default function HeaderLinks() {
                     </button>
                 </DropdownTrigger>
 
-                <DropdownMenu className="bg-slate-500 py-3 px-4 flex flex-col rounded-md bg-opacity-70 shadow-lg text-white">
+                <DropdownMenu className="bg-orange-600 outline-none py-3 px-4 flex flex-col rounded-md bg-opacity-70 shadow-lg text-white">
 
                     <DropdownItem>
                         <Link href="/about/entreprise/concepteurs">&gt;Produits</Link>
@@ -149,7 +149,7 @@ export default function HeaderLinks() {
                     </button>
                 </DropdownTrigger>
 
-                <DropdownMenu className="bg-slate-500 py-3 px-4 flex flex-col rounded-md bg-opacity-70 shadow-lg text-white">
+                <DropdownMenu className="bg-orange-600 outline-none py-3 px-4 flex flex-col rounded-md bg-opacity-70 shadow-lg text-white">
 
                     <DropdownItem>
                         <Link href="/about/entreprise/concepteurs">

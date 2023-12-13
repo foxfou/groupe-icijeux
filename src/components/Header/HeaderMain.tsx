@@ -4,16 +4,17 @@ import { Button } from "../ui/buttons/Button"
 import { FacebookIcon } from "../ui/icons/FacebookIcon/FacebookIcon"
 import LogoMain from "../images/LogoMain"
 import { MenuIcon } from "../ui/icons/MenuIcon/MenuIcon"
+import { Link } from "@nextui-org/react";
 
 
 export default function HeaderMain() {
     return (
-        <header className="bg-transperent absolute top-0 left-0 w-full">
+        <header className="bg-transperent absolute top-0 left-0 w-full z-10 bg-gradient-to-b from-black/50">
             <div className="flex justify-between max-w-screen mx-auto items-center h-[150px] text-white p-4">
 
-                <div className="max-w-[200px] lg:max-w-full">
+                <Link href="/" className="max-w-[200px] lg:max-w-full">
                     <LogoMain />
-                </div>
+                </Link>
 
                 <HeaderLinks />
 

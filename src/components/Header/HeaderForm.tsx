@@ -11,9 +11,9 @@ export default function HeaderForm() {
         <header className="bg-primary top-0 left-0 w-full">
             <div className="flex justify-between max-w-screen mx-auto items-center h-[150px] text-black p-4">
 
-                <div className="max-w-[200px] lg:max-w-full">
+                <Link href="/" className="max-w-[200px] lg:max-w-full">
                     <LogoBlack />
-                </div>
+                </Link>
 
                 <HeaderLinks />
 

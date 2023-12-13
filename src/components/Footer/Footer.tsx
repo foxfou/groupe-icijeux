@@ -10,9 +10,9 @@ export default function Footer() {
 
                 <div className="flex flex-col lg:flex-row justify-between items-center gap-4 lg:gap-20 pb-10" >
 
-                    <div className="max-w-[200px] flex items-center justify-center">
+                    <Link href="/" className="max-w-[200px] flex items-center justify-center">
                         <LogoMain />
-                    </div>
+                    </Link>
 
                     <h1 className="text-2xl text-white font-bold">Concepteur d’aires de jeux conçues pour émerveiller et inspirer.</h1>
 

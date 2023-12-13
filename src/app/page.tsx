@@ -8,11 +8,10 @@ export default function Home() {
         <>
             <HeaderMain />
             <main className="">
-                <section className="bg-cover bg-center min-h-[90vh] flex flex-col bg-main-cover p-4">
+                <video src={`${process.env.BASE_URL}/main_video1.mp4`} autoPlay muted loop className="w-full lg:block relative hidden"></video>
+                <section className="min-h-[90vh] lg:absolute top-0 left-0 flex flex-col w-full bg-cover bg-center bg-main-cover lg:bg-none">
 
-                    {/* <MainCover className="absolute top-0 left-0 -z-10 w-full" /> */}
-
-                    <div className="max-w-screen grow flex flex-col justify-center mx-auto w-full">
+                    <div className="max-w-screen grow flex flex-col justify-center mx-auto w-full p-4">
 
                         <h1 className="lg:text-5xl text-3xl font-bold max-w-[350px] lg:max-w-[700px] text-white mb-10 leading-snug mt-40 lg:mt-96">Des aires de jeux conçues pour émerveiller et inspirer.</h1>
 
@@ -35,7 +34,7 @@ export default function Home() {
                 <section className="p-4">
                     <div className="lg:max-w-screen flex flex-col lg:flex-row gap-4 lg:py-10 lg:justify-between items-center lg:mx-auto">
 
-                        <Image src={`${process.env.BASE_URL}/main1.jpg`} alt="main1" height="500" width="390" className="object-contained " />
+                        <Image src={`${process.env.BASE_URL}/main1.jpg`} alt="main1" height="500" width="390" className="object-contained" />
 
                         <Image src={`${process.env.BASE_URL}/main2.jpg`} alt="main2" height="500" width="390" />
 
@@ -60,7 +59,7 @@ export default function Home() {
                             </p>
 
                             <div className="lg:self-center">
-                                
+
                                 <Button variant="contained" color="black" className="py-6 mt-8 lg:mt-[-100px]">
                                     <span className="leading-1px">Notre savoir faire</span>
                                 </Button>
