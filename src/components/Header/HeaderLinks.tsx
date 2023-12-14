@@ -65,7 +65,7 @@ export default function HeaderLinks() {
 
             </Dropdown>
 
-            <Dropdown>
+            {/* <Dropdown>
 
                 <DropdownTrigger className="font-semibold">
                     <button>
@@ -93,7 +93,7 @@ export default function HeaderLinks() {
 
                 </DropdownMenu>
 
-            </Dropdown>
+            </Dropdown> */}
 
             <Dropdown>
 
@@ -106,27 +106,27 @@ export default function HeaderLinks() {
                 <DropdownMenu className="bg-orange-600 outline-none py-3 px-4 flex flex-col rounded-md bg-opacity-70 shadow-lg text-white">
 
                     <DropdownItem>
-                        <Link href="/about/entreprise/concepteurs">&gt;Produits</Link>
+                        <Link href="/about/produits/produit">&gt;Produits</Link>
                     </DropdownItem>
 
                     <DropdownItem>
-                        <Link href="/about/entreprise/Modules-de-jeux">Modules de jeux</Link>
+                        <Link href="/about/produits/modules">Modules de jeux</Link>
                     </DropdownItem>
 
                     <DropdownItem>
-                        <Link href="/about/entreprise/architectes">Jeux d'eau</Link>
+                        <Link href="/about/produits/jeux">Jeux d'eau</Link>
                     </DropdownItem>
 
                     <DropdownItem>
-                        <Link href="/about/entreprise/inspection">Castor B</Link>
+                        <Link href="/about/produits/castor">Castor B</Link>
                     </DropdownItem>
 
                     <DropdownItem>
-                        <Link href="/about/entreprise/inspection">Ruisseau ludique</Link>
+                        <Link href="/about/produits/ruisseau">Ruisseau ludique</Link>
                     </DropdownItem>
 
                     <DropdownItem>
-                        <Link href="/about/entreprise/inspection">4 saisons&nbsp;/&nbsp;Yéti Cool</Link>
+                        <Link href="/about/produits/yeti">4 saisons&nbsp;/&nbsp;Yéti Cool</Link>
                     </DropdownItem>
 
                     <DropdownItem>
