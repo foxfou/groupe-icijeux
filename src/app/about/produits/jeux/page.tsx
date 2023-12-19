@@ -26,25 +26,25 @@ export default function About() {
 
                 <div className="flex-col flex align-center">
 
-                    <img src={`${process.env.BASE_URL}/playgr_jeux.jpg`} alt="playgr" className="lg:w-[378px] w-[650px] h-[390px] object-cover " />
+                    <img src={`${process.env.BASE_URL}/playgr_jeux.jpg`} alt="playgr" className="lg:w-[378px] h-[378px] object-cover grow" />
 
-                    <p className="py-4">Des artisans internationaux</p>
-
-                </div>
-
-                <div>
-
-                    <img src={`${process.env.BASE_URL}/playgr_jeux_2.jpg`} alt="playgr" className="lg:w-[378px] w-[650px] h-[390px] object-cover" />
-
-                    <p className="py-4">Des matériaux de haute qualité</p>
+                    <p className="py-4 flex justify-center">Des artisans internationaux</p>
 
                 </div>
 
-                <div>
+                <div className="flex justify-center align-center flex-col">
 
-                    <img src={`${process.env.BASE_URL}/playgr_jeux_3.jpg`} alt="playgr" className="lg:w-[378px] w-[650px] h-[390px] object-cover" />
+                    <img src={`${process.env.BASE_URL}/playgr_jeux_2.jpg`} alt="playgr" className="lg:w-[378px] h-[378px] object-cover grow" />
 
-                    <p className="py-4">Des pièces uniques</p>
+                    <p className="py-4 flex justify-center">Des matériaux de haute qualité</p>
+
+                </div>
+
+                <div className="flex justify-center align-center flex-col">
+
+                    <img src={`${process.env.BASE_URL}/playgr_jeux_3.jpg`} alt="playgr" className="lg:w-[378px] h-[378px] object-cover grow" />
+
+                    <p className="py-4 flex justify-center">Des pièces uniques</p>
 
                 </div>
 

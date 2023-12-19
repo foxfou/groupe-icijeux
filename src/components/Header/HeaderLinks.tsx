@@ -130,11 +130,15 @@ export default function HeaderLinks() {
                     </DropdownItem>
 
                     <DropdownItem>
-                        <Link href="/about/entreprise/inspection">Parcours hébertisme</Link>
+                        <Link href="/about/produits/parcour">Parcours hébertisme</Link>
                     </DropdownItem>
 
                     <DropdownItem>
-                        <Link href="/about/entreprise/inspection">Pumptracks</Link>
+                        <Link href="/about/produits/terrain">Terrain sportif et récréatif</Link>
+                    </DropdownItem>
+
+                    <DropdownItem>
+                        <Link href="/about/produits/pump">Pumptracks</Link>
                     </DropdownItem>
 
                 </DropdownMenu>

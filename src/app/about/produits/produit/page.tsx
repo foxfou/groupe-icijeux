@@ -74,9 +74,9 @@ export default function About() {
 
                     <div className="flex flex-col items-center">
 
-                        <a href="">
+                        <Link href="/about/produits/parcour">
                             <img src={`${process.env.BASE_URL}/playgr.jpg`} alt="modules" className="rounded-full h-[350px] w-[350px] object-cover"  />
-                        </a>
+                        </Link>
 
                         <h1 className="py-6">PARCOURS HÉBERTISME</h1>
 
@@ -87,9 +87,9 @@ export default function About() {
                 <div className="lg:flex justify-around py-4">
                     <div className="flex flex-col items-center">
 
-                        <a href="">
+                        <Link href="/about/produits/terrain">
                             <img src={`${process.env.BASE_URL}/tennis.jpg`} alt="modules" className="rounded-full h-[350px] w-[350px] object-cover"  />
-                        </a>
+                        </Link>
 
                         <h1 className="py-6">SPORTS & RÉCRÉATIF</h1>
 
@@ -97,9 +97,9 @@ export default function About() {
 
                     <div className="flex flex-col items-center">
 
-                        <a href="">
+                        <Link href="/about/produits/pump">
                             <img src={`${process.env.BASE_URL}/pumptrack.jpg`} alt="modules" className="rounded-full h-[350px] w-[350px] object-cover"  />
-                        </a>
+                        </Link>
 
                         <h1 className="py-6">PUMPTRACK</h1>
 

@@ -22,26 +22,44 @@ export default function About() {
 
             </div>
 
-                <div className="flex items-center justify-center">
-                    <div className="grid lg:grid-cols-3 grid-cols-1 gap-10 max-w-screen mx-auto p-4">
+                <div className="max-w-screen mx-auto p-4">
+                    <div className="grid lg:grid-cols-3 grid-cols-1 gap-10">
 
-                        <img src={`${process.env.BASE_URL}/modules.jpg`} alt="playgr" className="lg:w-[378px] w-[657px] h-[390px] object-cover" />
+                        <div className="pb-10 flex justify-center">
+                            <img src={`${process.env.BASE_URL}/modules.jpg`} alt="playgr" className="w-[379px] h-[379px] object-cover grow" />
+                        </div>
 
-                        <img src={`${process.env.BASE_URL}/modules_2.jpg`} alt="playgr" className="lg:w-[378px] w-[657px] h-[390px] object-cover" />
-
-                        <img src={`${process.env.BASE_URL}/modules_3.jpg`} alt="playgr" className="lg:w-[378px] w-[657px] h-[390px] object-cover" />
-
-                        <img src={`${process.env.BASE_URL}/modules_4.jpg`} alt="playgr" className="lg:w-[378px] w-[657px] h-[390px] object-cover" />
-
-                        <img src={`${process.env.BASE_URL}/modules_5.jpg`} alt="playgr" className="lg:w-[378px] w-[657px] h-[390px] object-cover" />
-
-                        <img src={`${process.env.BASE_URL}/modules_6.jpg`} alt="playgr" className="lg:w-[378px] w-[657px] h-[390px] object-cover" />
-
-                        <img src={`${process.env.BASE_URL}/modules_7.jpg`} alt="playgr" className="lg:w-[378px] w-[657px] h-[390px] object-cover" />
-
-                        <img src={`${process.env.BASE_URL}/modules_8.jpg`} alt="playgr" className="lg:w-[378px] w-[657px] h-[390px] object-cover" />
-
-                        <img src={`${process.env.BASE_URL}/modules_9.jpg`} alt="playgr" className="lg:w-[378px] w-[657px] h-[390px] object-cover" />
+                        <div className="pb-10 flex justify-center">
+                            <img src={`${process.env.BASE_URL}/modules_2.jpg`} alt="playgr" className="w-[379px] h-[379px] object-cover grow" />
+                        </div>
+                        
+                        <div className="pb-10 flex justify-center">
+                            <img src={`${process.env.BASE_URL}/modules_3.jpg`} alt="playgr" className="w-[379px] h-[379px] object-cover grow" />
+                        </div>
+                        
+                        <div className="pb-10 flex justify-center">
+                            <img src={`${process.env.BASE_URL}/modules_4.jpg`} alt="playgr" className="w-[379px] h-[379px] object-cover grow" />
+                        </div>
+                        
+                        <div className="pb-10 flex justify-center">
+                            <img src={`${process.env.BASE_URL}/modules_5.jpg`} alt="playgr" className="w-[379px] h-[379px] object-cover grow" />
+                        </div>
+                        
+                        <div className="pb-10 flex justify-center">
+                            <img src={`${process.env.BASE_URL}/modules_6.jpg`} alt="playgr" className="w-[379px] h-[379px] object-cover grow" />
+                        </div>
+                        
+                        <div className="pb-10 flex justify-center">
+                            <img src={`${process.env.BASE_URL}/modules_7.jpg`} alt="playgr" className="w-[379px] h-[379px] object-cover grow" />
+                        </div>
+                        
+                        <div className="pb-10 flex justify-center">
+                            <img src={`${process.env.BASE_URL}/modules_8.jpg`} alt="playgr" className="w-[379px] h-[379px] object-cover grow" />
+                        </div>
+                        
+                        <div className="pb-10 flex justify-center">
+                            <img src={`${process.env.BASE_URL}/modules_9.jpg`} alt="playgr" className="w-[379px] h-[379px] object-cover grow" />
+                        </div>
 
                     </div>
                 </div>
